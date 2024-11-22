@@ -3,8 +3,7 @@
 -------------------- */
 
 :root {
-  --main-color: #a52a2a;
-  --sub-color: #006400;
+  --main-color: #a52a2;
 }
 
 * {
@@ -27,14 +26,10 @@ body {
         見出し
 -------------------- */
 
-h1 {
+h1, h2, h3 {
   color: var(--main-color);
   border-bottom: dashed 0.1em var(--main-color);
 }
-h2, h3 {
-        color:var(--sub-color);
-        border-bottom: dashed 0.1em var(--sub-color);
-
 /* --------------------
         リンク
 -------------------- */
