@@ -3,7 +3,8 @@
 -------------------- */
 
 :root {
-  --theme-color: #00a0a0;
+  --main-color: #000080;
+  --sub-color: #808080;
 }
 
 * {
@@ -25,10 +26,13 @@ body {
         見出し
 -------------------- */
 
-h1, h2, h3 {
-  color: var(--theme-color);
-  border-bottom: dashed 0.1em var(--theme-color);
+h1 {
+  color: var(--main-color);
+  border-bottom: dashed 0.1em var(--main-color);
 }
+h2, h3 {
+        color:var(--sub-color);
+        border-bottom: dashed 0.1em var(--sub-color);
 
 /* --------------------
         リンク
