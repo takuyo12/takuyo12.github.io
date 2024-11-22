@@ -4,7 +4,7 @@
 
 :root {
   --main-color: #000080;
-  --sub-color: #808080;
+  --sub-color: #ffffff;
 }
 
 * {
@@ -19,7 +19,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #333;
+  color: #ffffff;
+  background: #808080;
 }
 
 /* --------------------
