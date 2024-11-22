@@ -3,8 +3,8 @@
 -------------------- */
 
 :root {
-  --main-color: #000080;
-  --sub-color: #ffffff;
+  --main-color: #a52a2a;
+  --sub-color: #006400;
 }
 
 * {
@@ -19,8 +19,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #ffffff;
-  background: #808080;
+  color: #000033;
+  background: #f5f5dc;
 }
 
 /* --------------------
