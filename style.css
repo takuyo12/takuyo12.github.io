@@ -15,6 +15,18 @@ html, body {
   height: 100%;
 }
 
+        .event {
+            position: relative;
+            width: 45%;
+            margin-bottom: 50px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
 body {
   margin: auto;
   padding: 30px;
